@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 Pete Johanson
+ * Copyright (c) 2021 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
  */
@@ -12,7 +12,7 @@
         zmk,matrix-transform = &default_transform;
     };
 
-    default_transform: keymap_transform {
+    default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         rows = <3>;
         columns = <7>;
@@ -25,7 +25,7 @@ RC(0,4) RC(0,5) RC(0,6)
         >;
     };
 
-    kscan0: kscan {
+    kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-charlieprex";
         wakeup-source;
 
