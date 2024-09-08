@@ -17,3 +17,6 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+include:
+  - board: pro_micro
+    shield: gpk60_46sgr
