@@ -18,5 +18,5 @@
 #
 ---
 include:
-  - board: pro_micro
+  - board: sparkfun_pro_micro_rp2040
     shield: gpk60_46sgr
