@@ -1,0 +1,8 @@
+file_format: "1"
+id: coconut42
+name: coconut42
+type: shield
+url: https://github.com/tor-nky/coconut42
+requires: [seeed_xiao]
+features:
+  - keys
