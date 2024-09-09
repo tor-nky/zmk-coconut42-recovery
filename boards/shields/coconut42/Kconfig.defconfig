@@ -4,6 +4,6 @@
 if SHIELD_COCONUT42
 
 config ZMK_KEYBOARD_NAME
-    default "coconut42"
+    default "Coconut42"
 
 endif

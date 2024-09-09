@@ -1,6 +1,6 @@
 file_format: "1"
 id: coconut42
-name: coconut42
+name: Coconut42
 type: shield
 url: https://github.com/tor-nky/coconut42
 requires: [seeed_xiao]
