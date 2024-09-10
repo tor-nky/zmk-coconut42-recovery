@@ -10,5 +10,5 @@ features:
   - display
   - underglow
 siblings:
-  - coconut42_l
-  - coconut42_r
+  - coconut42_left
+  - coconut42_right
