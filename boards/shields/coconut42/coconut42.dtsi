@@ -143,9 +143,7 @@
         zmk,physical-layout = &coconut42_6col_layout;
     };
 
-    default_transform: keymap_transform_0 {
-        compatible = "zmk,kscan-gpio-charlieplex";
-        wakeup-source;
+    default_transform: matrix_transform_0 {
         columns = <14>;
         rows = <4>;
         map = <
@@ -156,9 +154,7 @@
         >;
     };
 
-    five_column_transform: keymap_transform_1 {
-        compatible = "zmk,kscan-gpio-charlieplex";
-        wakeup-source;
+    five_column_transform: matrix_transform_1 {
         columns = <14>;
         rows = <4>;
         map = <
