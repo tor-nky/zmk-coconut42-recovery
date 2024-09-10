@@ -144,8 +144,8 @@
     };
 
     default_transform: matrix_transform_0 {
-        columns = <14>;
-        rows = <4>;
+        columns = <7>;
+        rows = <8>;
         map = <
             RC(3,0) RC(3,1) RC(3,2) RC(3,4) RC(3,5) RC(3,6)  RC(7,6) RC(7,5) RC(7,4) RC(7,2) RC(7,1) RC(7,0)
             RC(2,0) RC(2,1) RC(2,3) RC(2,4) RC(2,5) RC(2,6)  RC(6,6) RC(6,5) RC(6,4) RC(6,3) RC(6,1) RC(6,0)
@@ -155,8 +155,8 @@
     };
 
     five_column_transform: matrix_transform_1 {
-        columns = <14>;
-        rows = <4>;
+        columns = <7>;
+        rows = <8>;
         map = <
             RC(3,1) RC(3,2) RC(3,4) RC(3,5) RC(3,6)  RC(7,6) RC(7,5) RC(7,4) RC(7,2) RC(7,1)
             RC(2,1) RC(2,3) RC(2,4) RC(2,5) RC(2,6)  RC(6,6) RC(6,5) RC(6,4) RC(6,3) RC(6,1)

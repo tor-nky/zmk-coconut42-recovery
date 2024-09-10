@@ -22,5 +22,5 @@ include:
   #   shield: gpk60_46sgr
   - board: seeeduino_xiao_ble
     shield: coconut42_left
-  - board: seeeduino_xiao_ble
-    shield: coconut42_right
+  # - board: seeeduino_xiao_ble
+  #   shield: coconut42_right
