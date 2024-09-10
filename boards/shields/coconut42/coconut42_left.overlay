@@ -7,9 +7,6 @@
 #include "coconut42.dtsi"
 
 &kscan0 {
-    compatible = "zmk,kscan-gpio-charlieplex";
-    wakeup-source;
-
     // interrupt-gpios
     //     = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     gpios
