@@ -143,7 +143,8 @@
         zmk,physical-layout = &coconut42_6col_layout;
     };
 
-    default_transform: matrix_transform_0 {
+    default_transform: keymap_transform_0 {
+        compatible = "zmk,matrix-transform";
         columns = <14>;
         rows = <11>;
         map = <
@@ -154,7 +155,8 @@
         >;
     };
 
-    five_column_transform: matrix_transform_1 {
+    five_column_transform: keymap_transform_1 {
+        compatible = "zmk,matrix-transform";
         columns = <14>;
         rows = <11>;
         map = <
