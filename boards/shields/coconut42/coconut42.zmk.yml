@@ -4,5 +4,11 @@ name: Coconut42
 type: shield
 url: https://github.com/tor-nky/coconut42
 requires: [seeed_xiao]
+exposes: [i2c_oled]
 features:
   - keys
+  - display
+  - underglow
+siblings:
+  - coconut42_l
+  - coconut42_r
