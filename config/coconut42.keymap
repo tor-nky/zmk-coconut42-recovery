@@ -23,7 +23,7 @@
                 &mt LCTRL TAB &kp A &kp S &kp D &kp F &kp G     &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
                 &kp LSHFT     &kp Z &kp X &kp C &kp V &kp B     &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHFT DEL
                                    &kp LGUI &mo 1 &kp SPACE     &kp SPACE &lt 2 RET &kp RALT
-            >
+            >;
         };
         lower_layer {
 // -----------------------------------------------------------------------------------------
