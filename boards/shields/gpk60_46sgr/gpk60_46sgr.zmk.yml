@@ -5,4 +5,4 @@ type: shield
 url: https://github.com/Daraku-Neko
 requires: [pro_micro]
 features:
-  - keys
+    - keys
