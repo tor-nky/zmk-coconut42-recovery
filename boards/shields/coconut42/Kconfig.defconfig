@@ -4,7 +4,7 @@
 if SHIELD_COCONUT42_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Coconut42"
+    default "coconut42"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

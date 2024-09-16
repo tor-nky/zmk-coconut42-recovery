@@ -1,0 +1,19 @@
+# Copyright (c) 2024 Satoru NAKAYA
+# SPDX-License-Identifier: MIT
+
+if SHIELD_PAD2X3S_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "pad2x3s"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_PAD2X3S_LEFT || SHIELD_PAD2X3S_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

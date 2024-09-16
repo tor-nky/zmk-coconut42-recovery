@@ -20,9 +20,13 @@
 include:
   # - board: sparkfun_pro_micro_rp2040
   #   shield: gpk60_46sgr
+  # - board: seeeduino_xiao_ble
+  #   shield: coconut42_left
+  # - board: seeeduino_xiao_ble
+  #   shield: coconut42_right
+  # - board: seeeduino_xiao_ble
+  #   shield: pad2x3
   - board: seeeduino_xiao_ble
-    shield: coconut42_left
+    shield: pad2x3s_left
   - board: seeeduino_xiao_ble
-    shield: coconut42_right
-  - board: seeeduino_xiao_ble
-    shield: pad2x3
+    shield: pad2x3s_right
