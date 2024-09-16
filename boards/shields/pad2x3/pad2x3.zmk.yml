@@ -1,0 +1,8 @@
+file_format: "1"
+id: pad2x3
+name: pad2x3
+type: shield
+url:
+requires: [seeed_xiao]
+features:
+  - keys
