@@ -1,6 +1,6 @@
 file_format: "1"
-id: pad2x3s
-name: pad2x3s
+id: coconut42
+name: coconut42
 type: shield
 url: https://github.com/tor-nky/pad2x3
 requires: [seeed_xiao]

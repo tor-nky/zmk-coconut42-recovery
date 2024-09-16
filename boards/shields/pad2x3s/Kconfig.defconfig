@@ -4,7 +4,7 @@
 if SHIELD_PAD2X3S_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "pad2x3s"
+    default "coconut42"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
