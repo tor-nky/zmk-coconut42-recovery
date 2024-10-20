@@ -9,6 +9,7 @@ features:
   - keys
   - display
   - underglow
+  - studio
 siblings:
   - coconut42_left
   - coconut42_right

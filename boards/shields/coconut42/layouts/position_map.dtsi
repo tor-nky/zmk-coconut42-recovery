@@ -1,0 +1,7 @@
+/ {
+    layouts_coconut42_position_map: layouts_coconut42_position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        complete;
+    };
+};
