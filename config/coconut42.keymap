@@ -18,7 +18,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default_layer { // layer 0
 // -----------------------------------------------------------------------------------------
 // |OP_ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  |   -   |
 // |CTL_TAB|  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  ;  |   '   |
@@ -32,7 +32,7 @@
             >;
         };
 
-        shift_layer {
+        shift_layer {   // layer 1
 // -----------------------------------------------------------------------------------------
 // |OP_ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  |   _   |
 // |CTL_TAB|  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  :  |   "   |
@@ -42,11 +42,11 @@
     &mt LALT LS(ESC)  &kp LS(Q) &kp LS(W) &kp LS(E) &kp LS(R) &kp LS(T)     &kp LS(Y) &kp LS(U)  &kp LS(I)     &kp LS(O)   &kp LS(P)    &kp LS(INT1)
     &mt LCTRL LS(TAB) &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G)     &kp LS(H) &kp LS(J)  &kp LS(K)     &kp LS(L)   &kp SQT      &kp LS(N2)
     &trans            &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B)     &kp LS(N) &kp LS(M)  &kp LS(COMMA) &kp LS(DOT) &kp LS(FSLH) &trans
-                        &mt LGUI LS(LANG2) &lt 3 LS(BSPC) &kp LS(SPACE)     &kp LS(SPACE) &lt 4 LS(RET) &mt RALT LS(LANG1)
+                        &mt LGUI LS(LANG2) &lt 3 LS(BSPC) &kp LS(SPACE)     &kp LS(SPACE) &lt 5 LS(RET) &mt RALT LS(LANG1)
             >;
         };
 
-        lower_layer {
+        lower_layer {   // layer 2
 // -----------------------------------------------------------------------------------------
 // |   `   |  ^  |  ]  |  &  |  [  |  \  |   |  :  |  7  |  8  |  9  |  /  |   -   |
 // |       |  !  |  @  | "|" |  (  |  )  |   |  =  |  4  |  5  |  6  |  +  |   *   |
@@ -56,25 +56,25 @@
     &kp LBRC &kp EQUAL &kp NUHS &kp CARET    &kp RBKT &kp INT3         &kp SQT   &kp N7 &kp N8 &kp N9 &kp KP_DIVIDE &kp KP_MINUS
     &trans   &kp EXCL  &kp LBKT &kp LS(INT3) &kp STAR &kp LPAR         &kp UNDER &kp N4 &kp N5 &kp N6 &kp KP_PLUS   &kp KP_MULTIPLY
     &mo 3    &kp PLUS  &kp DLLR &kp HASH     &kp RBRC &kp LS(NUHS)     &kp N0    &kp N1 &kp N2 &kp N3 &kp KP_DOT    &kp PRCNT
-                                &trans       &trans   &trans           &trans    &lt 5 KP_ENTER &trans
+                                &trans       &trans   &trans           &trans    &lt 6 KP_ENTER &trans
             >;
         };
 
-        lower_shift_layer {
+        lower_shift_layer { // layer 3
 // -----------------------------------------------------------------------------------------
 // |   ~   |  ^  |  }  |  &  |  {  | "|" |   |  :  |  &  |  *  |  (  |  /  |   -   |
 // |       |  !  |  @  | "|" |  (  |  )  |   |  +  |  $  |  %  |  ^  |  +  |   *   |
 // |       |  ~  |  $  |  #  |  {  |  }  |   |  )  |  !  |  @  |  #  |  .  |   %   |
 //                     |     |     |     |   |     |ADJ_ENT|   |
             bindings = <
-    &kp LBRC  &kp EQUAL &kp LS(NUHS) &kp CARET    &kp RBRC &kp LS(INT3)     &kp SQT   &kp CARET &kp DQT   &kp STAR  &kp LS(KP_DIVIDE) &kp LS(KP_MINUS)
+    &kp PLUS  &kp EQUAL &kp LS(NUHS) &kp CARET    &kp RBRC &kp LS(INT3)     &kp SQT   &kp CARET &kp DQT   &kp STAR  &kp LS(KP_DIVIDE) &kp LS(KP_MINUS)
     &trans    &kp EXCL  &kp LBKT     &kp LS(INT3) &kp STAR &kp LPAR         &kp COLON &kp DLLR  &kp PRCNT &kp EQUAL &kp LS(KP_PLUS)   &kp LS(KP_MULTIPLY)
-    &kp LSHFT &kp PLUS  &kp DLLR     &kp HASH     &kp RBRC &kp LS(NUHS)     &kp LPAR  &kp EXCL  &kp LBKT  &kp HASH  &kp LS(KP_DOT)    &kp PRCNT
-                                     &trans       &trans   &trans           &trans    &lt 5 KP_ENTER &trans
+    &trans    &kp PLUS  &kp DLLR     &kp HASH     &kp RBRC &kp LS(NUHS)     &kp LPAR  &kp EXCL  &kp LBKT  &kp HASH  &kp LS(KP_DOT)    &kp PRCNT
+                                     &trans       &trans   &trans           &trans    &lt 6 LS(KP_ENTER) &trans
             >;
         };
 
-        raise_layer {
+        raise_layer {   // layer 4
 // -----------------------------------------------------------------------------------------
 // |  PWR  |  F1 |  F2 |  F3 |  F4 |  F5 |   |     |     |     |     | LCLK|  RCLK |
 // |       |  F6 |  F7 |  F8 |  F9 | F10 |   | LFT | DWN |  UP | RGT | MCLK|       |
@@ -83,12 +83,26 @@
             bindings = <
     &kp K_PWR &kp F1  &kp F2  &kp F3    &kp F4   &kp F5             &trans   &trans    &trans    &trans    &mkp MB1 &mkp MB2
     &trans    &kp F6  &kp F7  &kp F8    &kp F9   &kp F10            &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &mkp MB3 &trans
-    &kp LSHFT &kp F11 &kp F12 &kp PSCRN &kp SLCK &kp PAUSE_BREAK    &kp HOME &kp PG_DN &kp PG_UP &kp END   &trans &trans
-                              &trans    &mo 5    &trans             &trans   &trans    &trans
+    &mo 5     &kp F11 &kp F12 &kp PSCRN &kp SLCK &kp PAUSE_BREAK    &kp HOME &kp PG_DN &kp PG_UP &kp END   &trans   &mo 5
+                              &trans    &mo 6    &trans             &trans   &trans    &trans
             >;
         };
 
-        adjust_layer {
+        raise_shift_layer { // layer 5
+// -----------------------------------------------------------------------------------------
+// |  PWR  |  F1 |  F2 |  F3 |  F4 |  F5 |   |     |     |     |     | LCLK|  RCLK |
+// |       |  F6 |  F7 |  F8 |  F9 | F10 |   | LFT | DWN |  UP | RGT | MCLK|       |
+// |  SHFT | F11 | F12 | PSCR| SCRL| PAUS|   | HOME| PGWN| PGUP| END |     |       |
+//                    |     |ADJUST|     |   |     |     |     |
+            bindings = <
+    &kp K_PWR &kp LS(F1)  &kp LS(F2)  &kp LS(F3)    &kp LS(F4)   &kp LS(F5)             &trans       &trans        &trans        &trans        &mkp MB1 &mkp MB2
+    &trans    &kp LS(F6)  &kp LS(F7)  &kp LS(F8)    &kp LS(F9)   &kp LS(F10)            &kp LS(LEFT) &kp LS(DOWN)  &kp LS(UP)    &kp LS(RIGHT) &mkp MB3 &trans
+    &trans    &kp LS(F11) &kp LS(F12) &kp LS(PSCRN) &kp LS(SLCK) &kp LS(PAUSE_BREAK)    &kp LS(HOME) &kp LS(PG_DN) &kp LS(PG_UP) &kp LS(END)   &trans   &trans
+                                      &trans        &mo 6        &trans                 &trans       &trans        &trans
+            >;
+        };
+
+        adjust_layer {  // layer 6
 // -----------------------------------------------------------------------------------------
 // | RESET |       |       |  PREV | PLAY | NEXT |   |       |Studio |       |       |       | BT_CLR|
 //                                                            Unlock
