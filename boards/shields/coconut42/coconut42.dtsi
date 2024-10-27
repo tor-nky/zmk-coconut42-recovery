@@ -5,6 +5,7 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/led/led.h>
 
 #include "layouts/6column.dtsi"
 #include "layouts/5column.dtsi"
@@ -22,6 +23,7 @@
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
         zmk,physical-layout = &coconut42_6col_layout;
+        zmk,underglow = &led_strip;
     };
 
     default_transform: keymap_transform_0 {
