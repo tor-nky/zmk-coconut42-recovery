@@ -31,6 +31,7 @@
       &mt LGUI LANG2 &lt 1 BSPC &mt LSHFT SPACE     &mt RSHFT SPACE &lt 2 RET &mt RALT LANG1
             >;
         };
+
         lower_layer {
 // -----------------------------------------------------------------------------------------
 // |   `   |  ^  |  ]  |  &  |  [  |  \  |   |  :  |  7  |  8  |  9  |  /  |   -   |
