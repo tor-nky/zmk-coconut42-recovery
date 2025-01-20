@@ -12,6 +12,9 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <behaviors/naginata.dtsi>
 
+#define HOST_OS 2
+#include "zmk-helpers/helper.h"
+
 &lt { quick-tap-ms = <200>; };
 &mt { quick-tap-ms = <200>; };
 
@@ -21,14 +24,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp LANGUAGE_1 &kp INTERNATIONAL_4 &to 1>
+                = <&macro_tap &kp LANGUAGE_1 &to 1>
                 ;
         };
         ng_off: ng_off {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp LANGUAGE_2 &kp INTERNATIONAL_5 &to 0>
+                = <&macro_tap &kp LANGUAGE_2 &to 0>
                 ;
         };
     };
