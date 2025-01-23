@@ -12,7 +12,7 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <behaviors/naginata.dtsi>
 
-#define HOST_OS 2
+// #define HOST_OS 2
 // #include "zmk-helpers/helper.h"
 
 &lt { quick-tap-ms = <200>; };
