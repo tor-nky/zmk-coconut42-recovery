@@ -7,12 +7,12 @@
 #include "coconut42.dtsi"
 
 &default_transform {
-//    col-offset = <7>;
+    col-offset = <7>;
     row-offset = <7>;
 };
 
 &five_column_transform {
-//    col-offset = <7>;
+    col-offset = <7>;
     row-offset = <7>;
 };
 
