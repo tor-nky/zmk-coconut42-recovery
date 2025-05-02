@@ -8,10 +8,12 @@
 
 &default_transform {
     col-offset = <7>;
+    row-offset = <7>;
 };
 
 &five_column_transform {
     col-offset = <7>;
+    row-offset = <7>;
 };
 
 &kscan0 {
