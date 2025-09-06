@@ -49,15 +49,15 @@
     };
 
     kscan0: kscan {
-    compatible = "zmk,kscan-gpio-matrix";
-    wakeup-source;
-    diode-direction = "row2col";
-    row-gpios
-        = <&pro_micro 4 (GPIO_ACTIVE_LOW | GPIO_PULL_Up)>
-        , <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&pro_micro 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&pro_micro 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        ;
+        compatible = "zmk,kscan-gpio-matrix";
+        wakeup-source;
+        diode-direction = "row2col";
+        row-gpios
+            = <&pro_micro 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&pro_micro 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&pro_micro 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            ;
     };
 
     // TODO: per-key RGB node(s)?
