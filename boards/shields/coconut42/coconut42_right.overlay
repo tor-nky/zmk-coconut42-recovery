@@ -7,14 +7,19 @@
 #include "coconut42.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <7>;
+    row-offset = <7>;
 };
 
 &five_column_transform {
-    col-offset = <6>;
+    col-offset = <7>;
+    row-offset = <7>;
 };
 
 &kscan0 {
+    compatible = "zmk,kscan-gpio-matrix";
+    wakeup-source;
+    diode-direction = "row2col";
     col-gpios
         = <&xiao_d 0 GPIO_ACTIVE_LOW>
         , <&xiao_d 1 GPIO_ACTIVE_LOW>
@@ -22,5 +27,11 @@
         , <&xiao_d 10 GPIO_ACTIVE_LOW>
         , <&xiao_d 9 GPIO_ACTIVE_LOW>
         , <&xiao_d 8 GPIO_ACTIVE_LOW>
+        ;
+    row-gpios
+        = <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ;
 };
