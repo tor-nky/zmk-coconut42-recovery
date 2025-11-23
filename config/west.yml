@@ -2,22 +2,31 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: caksoylar  # zmk-rgbled-widget
+      url-base: https://github.com/caksoylar
     # - name: urob
     #   url-base: https://github.com/urob
     - name: eswai # ここを追加
       url-base: https://github.com/eswai
+    # - name: prospector
+    #   url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
     # - name: zmk-helpers
     #   remote: urob
     #   revision: main
     - name: zmk-naginata # ここを追加
       remote: eswai
       revision: main
+    # - name: prospector-zmk-module
+    #   remote: prospector
+    #   revision: v1.0.0
+    #   path: modules/prospector-zmk-module
   self:
     path: config
