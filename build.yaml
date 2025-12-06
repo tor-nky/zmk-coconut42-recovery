@@ -18,13 +18,10 @@
 #
 ---
 include:
-  # - board: seeeduino_xiao_ble
-  #   shield: coconut42_left
-  # - board: seeeduino_xiao_ble
-  #   shield: coconut42_right
-  #   snippet: studio-rpc-usb-uart
-  # - board: seeeduino_xiao_ble
-  #   shield: settings_reset
-  - board: sparkfun_pro_micro_rp2040
-    shield: blockey
+  - board: seeeduino_xiao_ble
+    shield: coconut42_left
+  - board: seeeduino_xiao_ble
+    shield: coconut42_right
     snippet: studio-rpc-usb-uart
+  - board: seeeduino_xiao_ble
+    shield: settings_reset

@@ -1,9 +1,0 @@
-file_format: "1"
-id: blockey
-name: BLOCKEY
-type: shield
-url: https://github.com/eucalyn/
-requires: [sparkfun_pro_micro_rp2040]
-features:
-  - keys
-  - studio
