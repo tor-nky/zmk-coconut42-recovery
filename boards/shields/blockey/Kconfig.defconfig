@@ -1,0 +1,9 @@
+# Copyright (c) 2025 Satoru NAKAYA
+# SPDX-License-Identifier: MIT
+
+if SHIELD_BLOCKEY
+
+config ZMK_KEYBOARD_NAME
+    default "Blockey"
+
+endif
