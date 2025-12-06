@@ -27,4 +27,4 @@ include:
   #   shield: settings_reset
   - board: pro_micro
     shield: blockey
-    snippet: studio-rpc-usb-uart
+    # snippet: studio-rpc-usb-uart
