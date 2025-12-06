@@ -3,7 +3,7 @@ id: blockey
 name: BLOCKEY
 type: shield
 url: https://github.com/eucalyn/
-requires: [pro_micro]
+requires: [sparkfun_pro_micro_rp2040]
 features:
   - keys
   # - studio
