@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: kot149
+      url-base: https://github.com/kot149
     - name: caksoylar  # zmk-rgbled-widget
       url-base: https://github.com/caksoylar
     # - name: urob
@@ -15,6 +17,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-layout-shift
+      remote: kot149
+      revision: v1
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
