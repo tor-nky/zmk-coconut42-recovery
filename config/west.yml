@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/caksoylar
     # - name: urob
     #   url-base: https://github.com/urob
-    - name: eswai # ここを追加
-      url-base: https://github.com/eswai
+    # - name: eswai # ここを追加
+    #   url-base: https://github.com/eswai
     # - name: prospector
     #   url-base: https://github.com/t-ogura
   projects:
@@ -26,9 +26,9 @@ manifest:
     # - name: zmk-helpers
     #   remote: urob
     #   revision: main
-    - name: zmk-naginata # ここを追加
-      remote: eswai
-      revision: main
+    # - name: zmk-naginata # ここを追加
+    #   remote: eswai
+    #   revision: main
     # - name: prospector-zmk-module
     #   remote: prospector
     #   revision: v1.0.0
