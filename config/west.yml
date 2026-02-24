@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kot149
       url-base: https://github.com/kot149
+    - name: tor-nky
+      url-base: https://github.com/tor-nky
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -16,5 +18,8 @@ manifest:
     - name: zmk-rgbled-widget
       url: https://github.com/caksoylar/zmk-rgbled-widget
       revision: v0.3           # MUST match your ZMK version!
-  self:
+    - name: zmk-naginata # ここを追加
+      remote: tor-nky
+      revision: main
+self:
     path: config
