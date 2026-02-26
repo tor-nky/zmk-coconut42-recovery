@@ -12,9 +12,6 @@
 #include <behaviors/naginata.dtsi>
 #include <layout_shift_kp_override.dtsi>
 
-// #define HOST_OS 2
-// #include "zmk-helpers/helper.h"
-
 &lt { quick-tap-ms = <200>; };
 &mt { quick-tap-ms = <200>; };
 
@@ -97,7 +94,7 @@
             bindings = <
 &kp ESC              &ng Q &ng W &ng E &ng R &ng T   &ng Y &ng U  &ng I     &ng O   &ng P    &trans
 &base_with_mod LCTRL &ng A &ng S &ng D &ng F &ng G   &ng H &ng J  &ng K     &ng L   &ng SEMI &trans
-&trans               &ng Z &ng X &ng C &ng V &ng B   &ng N &ng M  &ng COMMA &ng DOT &ng FSLH &trans
+&base_with_mod LSHFT &ng Z &ng X &ng C &ng V &ng B   &ng N &ng M  &ng COMMA &ng DOT &ng FSLH &base_with_mod RSHFT
               &base_with_mod LGUI &trans &ng SPACE   &ng SPACE &trans &base_with_mod LALT
             >;
         };
