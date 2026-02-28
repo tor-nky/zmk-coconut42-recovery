@@ -9,8 +9,8 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      # revision: v0.3
-      revision: abb64ba316c29caddc49727ca2cac2f0ed5970c7
+      revision: v0.3
+      # revision: abb64ba316c29caddc49727ca2cac2f0ed5970c7
       import: app/west.yml
     - name: zmk-layout-shift
       remote: kot149
@@ -20,6 +20,6 @@ manifest:
       revision: v0.3           # MUST match your ZMK version!
     - name: zmk-naginata # ここを追加
       remote: tor-nky
-      revision: main
+      revision: madake
   self:
     path: config
